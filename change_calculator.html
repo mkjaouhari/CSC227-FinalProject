@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Change Counter</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id='container'>
+            <h1>Change Calculator</h1>
+
+            <label>Enter Dollar Amount:</label>
+            <input type="text" id="amount" />
+            <input type="button" value="Calculate" id="calculate" onclick="calculateExactChange()"/> <br/>
+
+            <p>&nbsp;</p>
+
+            <div id='bills'>
+                <label>$100 Bills:</label>
+                <input type="text" id="hundred" disabled="disabled"/> <br/>
+
+                <label>$50 Bills:</label>
+                <input type="text" id="fifty" disabled="disabled"/> <br/>
+
+                <label>$20 Bills:</label>
+                <input type="text" id="twenty" disabled="disabled"/> <br/>
+
+                <label>$10 Bills:</label>
+                <input type="text" id="ten" disabled="disabled"/> <br/>
+
+                <label>$5 Bills:</label>
+                <input type="text" id="five" disabled="disabled"/> <br/>
+
+                <label>$1 Bills:</label>
+                <input type="text" id="one" disabled="disabled"/> <br/>
+
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div id='coins'>
+                <label>Quarters:</label>
+                <input type="text" id="quarter" disabled="disabled"/> <br/>
+
+                <label>Dimes:</label>
+                <input type="text" id="dime" disabled="disabled"/> <br/>
+
+                <label>Nickels:</label>
+                <input type="text" id="nickel" disabled="disabled"/> <br/>
+
+                <label>Pennies:</label>
+                <input type="text" id="penny" disabled="disabled"/> <br/>
+            </div>
+        </div>
+        <script src="give_change.js"></script>
+    </body>
+</html>

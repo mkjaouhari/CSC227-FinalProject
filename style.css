@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#container {
+    width: 600px;
+    margin: 75px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
